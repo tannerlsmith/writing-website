@@ -20,6 +20,7 @@ body {
 
 .page-title {
     font-size: 1.5rem;
+    margin-left: 20px;
 }
 
 .navbar-links ul {
@@ -85,8 +86,26 @@ body {
     color: white;
 }
 
+/* Social Media Icons */
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+}
 
-@media (max-width: 400px) {
+.fa-linkedin {
+    background: #1b4591;
+    color: white
+}
+
+.fa-github {
+    background: #000;
+    color: white
+}
+
+@media (max-width: 500px) {
     .toggle-button {
         display: flex;
     }
